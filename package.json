@@ -1,0 +1,31 @@
+{
+  "name": "@plantree/typescript-react-vite-template",
+  "version": "0.0.1",
+  "description": "An easy start for writing a React project with TypeScript based on Vite",
+  "scripts": {
+    "dev": "vite --port 6543",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test": "",
+    "lint": "",
+    "lint:fix": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/plantree/typescript-react-vite-template.git"
+  },
+  "keywords": [
+    "react",
+    "typescript",
+    "vite"
+  ],
+  "author": "plantree",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/plantree/typescript-react-vite-template/issues"
+  },
+  "homepage": "https://github.com/plantree/typescript-react-vite-template#readme",
+  "devDependencies": {
+    "vitepress": "^1.1.4"
+  }
+}
