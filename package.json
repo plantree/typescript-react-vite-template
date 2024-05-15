@@ -1,15 +1,8 @@
 {
-  "name": "@plantree/typescript-react-vite-template",
-  "version": "0.0.1",
-  "description": "An easy start for writing a React project with TypeScript based on Vite",
-  "scripts": {
-    "dev": "vite --port 6543",
-    "build": "vite build",
-    "preview": "vite preview",
-    "test": "",
-    "lint": "",
-    "lint:fix": ""
-  },
+  "name": "typescript-react-vite-template",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/plantree/typescript-react-vite-template.git"
@@ -25,7 +18,35 @@
     "url": "https://github.com/plantree/typescript-react-vite-template/issues"
   },
   "homepage": "https://github.com/plantree/typescript-react-vite-template#readme",
+  "description": "A Vite + React + TypeScript template",
+  "scripts": {
+    "dev": "vite --port 6543",
+    "build": "tsc && vite build",
+    "preview": "vite preview --port 6544",
+    "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
+    "lint:fix": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0 --fix",
+    "format": "prettier --write  './**/*.{js,jsx,ts,tsx,css,md,json}' && stylelint './**/*.{css,scss,less}' --fix",
+    "lint-staged": "lint-staged"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
   "devDependencies": {
-    "vitepress": "^1.1.4"
+    "@types/react": "^18.2.66",
+    "@types/react-dom": "^18.2.22",
+    "@typescript-eslint/eslint-plugin": "^7.2.0",
+    "@typescript-eslint/parser": "^7.2.0",
+    "@vitejs/plugin-react": "^4.2.1",
+    "eslint": "^8.57.0",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-refresh": "^0.4.6",
+    "husky": "^9.0.11",
+    "lint-staged": "^15.2.2",
+    "prettier": "^3.2.5",
+    "stylelint": "^16.5.0",
+    "stylelint-config-standard": "^36.0.0",
+    "typescript": "^5.2.2",
+    "vite": "^5.2.0"
   }
 }

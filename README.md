@@ -1,36 +1,42 @@
 # typescript-react-vite-template
 
-An easy start for writing a React project with TypeScript based on Vite.
+A Vite + React + TypeScript template.
 
 ## How to use
 
 1. Create your project based on this template.
-    - Click `Use this template` in this page to create a new repository.
-    - Use `git submodule`.
+
+   - Click `Use this template` in this page to create a new repository.
+   - Use `git submodule`.
 
 2. Update meta-information.
-    - Update the `package.json`.
-    - Change the author in `LISCENSE`.
-    - Clean up this README.
+
+   - Update the `package.json`.
+   - Change the author in `LISCENSE`.
+   - Clean up this README.
 
 3. Run
-    - `npm install -g pnpm` (install `pnpm` firstly)
-    - `pnpm install`
-    - `npm run dev`: start the development server on `localhost:6543`
+
+   - `npm install -g pnpm` (install `pnpm` firstly)
+   - `pnpm install`
+   - `npm run dev`: start the development server on `localhost:6543`
 
 4. Testing
-    - Unit tests:
-        - `npm run test`: run unit tests with Jest and React Testing Library
-    - End-to-end tests:
-        - `npm run dev`: start the development server
-        - // TODO
+
+   - Unit tests:
+     - `npm run test`: run unit tests with Jest and React Testing Library
+   - End-to-end tests:
+     - `npm run dev`: start the development server
+     - // TODO
 
 5. Linting
-    - `npm run lint`: run linter
-    - `npm run lint:fix`: fix lint issues
+
+   - `npm run lint`: run linter
+   - `npm run lint:fix`: fix lint issues
+   - `npm run format`: format source files with a consistent style
 
 6. Continuous integration
-    - Add `.yml` under `.github/workflows`
+   - Add `.yml` under `.github/workflows`
 
 ## Tech stack
 
@@ -41,4 +47,4 @@ An easy start for writing a React project with TypeScript based on Vite.
 
 ## Reference
 
-1. [typescript-react_best_practices-vite_template](https://github.com/CodelyTV/typescript-react_best_practices-vite_template) 
+1. [typescript-react_best_practices-vite_template](https://github.com/CodelyTV/typescript-react_best_practices-vite_template)
