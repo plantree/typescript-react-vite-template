@@ -24,7 +24,8 @@ A Vite + React + TypeScript template.
 4. Testing
 
    - Unit tests:
-     - `npm run test`: run unit tests with Jest and React Testing Library
+     - `npm run test`: run unit tests with Vitest and React Testing Library
+     - `npm run coverage`: get test coverage of your project via `istanbul`
    - End-to-end tests:
      - `npm run dev`: start the development server
      - // TODO
@@ -41,10 +42,14 @@ A Vite + React + TypeScript template.
 ## Tech stack
 
 - [TypeScript](https://www.typescriptlang.org)
-- [ESLint](https://eslint.org) and [Prettier](https://prettier.io) already configured with the [🤏 Codely's configuration](https://github.com/CodelyTV/eslint-config-codely)
-- [Jest](https://jestjs.io) with [React Testing Library](https://testing-library.com/docs/react-testing-library/intro) for the unit tests
+- [ESLint](https://eslint.org) and [Prettier](https://prettier.io)
+- [Lint-staged](https://github.com/lint-staged/lint-staged) and [Husky](https://typicode.github.io/husky/)
+- [Vitest](https://vitest.dev/) with [React Testing Library](https://testing-library.com/docs/react-testing-library/intro) for the unit tests
+- [Istanbul](https://istanbul.js.org/)
 - [GitHub Action Workflows](https://github.com/features/actions) set up to run tests and linting on push
 
 ## Reference
 
 1. [typescript-react_best_practices-vite_template](https://github.com/CodelyTV/typescript-react_best_practices-vite_template)
+2. [Vitest with React Testing Library In React(created with Vite)](https://victorbruce82.medium.com/vitest-with-react-testing-library-in-react-created-with-vite-3552f0a9a19a)
+3. 
